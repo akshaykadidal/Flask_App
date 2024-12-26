@@ -11,7 +11,7 @@ def home():
 def features():
     return render_template('features.html')
 
-@app.route('/products')
+@app.route('/product')
 def products():
     return render_template('product.html')
 
